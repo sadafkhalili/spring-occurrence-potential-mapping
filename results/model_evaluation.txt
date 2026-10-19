@@ -1,0 +1,21 @@
+GROUNDWATER PROJECT - MODEL EVALUATION
+
+Model: Random Forest
+Training samples: 352
+Independent test samples: 120
+Environmental features: 15
+
+SPATIAL CROSS-VALIDATION (5 FOLDS)
+Mean Accuracy: 0.764
+Mean ROC-AUC: 0.855
+
+INDEPENDENT SPATIAL TEST
+Accuracy: 0.700
+Precision: 0.816
+Recall: 0.597
+ROC-AUC: 0.793
+
+IMPORTANT LIMITATION
+Background samples are not confirmed groundwater absence points.
+Results represent discrimination between recorded springs and sampled
+background locations, not confirmed groundwater presence or absence.
